@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/circle.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* bg */
+}
+.container{
+    height: 550px;
+    width: 550px;
+    background: rgba(0, 0, 0, 0.111);
+    margin-top: 30px ;
+    color: white;;
+    /* border: 10px solid yellow; */
+
+}
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(21, 17, 21);
+    line-height: 45px;
+        text-transform:capitalize;
+        font-weight: bold;
+
+}
+.form-body{
+    height:500px ;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.733);
+
+    /* margin-top: 30px; */
+    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form{
+    width: 350px;
+    height: 400px;
+    background: rgba(35, 18, 18, 0.802);
+    /* display: flex; */
+    /* margin: 20px 0px; */
+}
+label{
+    display: inline-block;
+    padding: 3px;
+    margin: 8px 0px;
+    font-size: 23px;
+}
+.data-input{
+    width: 80%;
+    padding: 12px;
+font-size: 18px;
+    display: block;
+    border: 0;
+    outline: 0;
+    background: none;
+    border-bottom: 2px solid rgb(255, 243, 5);
+    border-radius: 9px;
+
+}
+.data-input[type="text"]
+{
+    color: white;
+}
+
+.data-input[type="password"]
+{
+    color: red;
+}
+.data-input[type="email"]
+{
+    color: rgb(0, 255, 4);
+}
+.btn{
+    padding: 12px;
+    width: 80%;
+    margin-top: 13px;
+
+}

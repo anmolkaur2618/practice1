@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./images/form1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+.contact{
+   height:550px;
+   width: 550px;  
+   /* background:rgba(236, 10, 10, 0.856) */
+   /* margin-top: 20px; */
+}
+.header{
+    height:100px;
+    width:100% ;
+    /* background:rgba(255, 3, 192, 0.185); */
+    text-transform: capitalize;
+    font-weight:bold ;
+}
+.header h2{
+    line-height: 50px;
+}
+.container{
+    height:400px;
+    width: 100%;
+    background-color:rgba(255, 255, 255, 0.329);
+    display:flex;
+    justify-content: center;
+    align-items: top;
+    box-shadow: 10px 10px 100px;
+}
+label{
+    font-size:20px ; 
+    padding: 20px;
+    display: inline-block;
+    
+    
+
+}
+.data{
+    width: 100%; 
+    display: block;
+    border:0 ;
+    outline:0 ;
+    background: none;
+    border-radius: 20px;
+    border-bottom:2px solid rgba(0, 0, 0, 0.904) ;
+}
+.data[type="text"]
+{
+    color:red;
+}
+
+.data[type="email"]
+{
+    color:purple;
+}
+.button{
+    padding: 10px;
+    margin-top:10px ;
+    width:100%;
+    
+}

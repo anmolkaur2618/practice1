@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background: rgb(12, 46, 61);
+    margin-top: 20px;
+    border: 10px solid rgb(12, 46, 61);
+    /* color: white; */
+}
+.header{
+    height: 50px;
+    width: 100%;
+    /* background: rgb(12, 46, 61); */
+    line-height: 40px;
+    text-transform: capitalize;
+    
+    
+}
+.header h2{
+    color: white;
+}
+.form-body{
+    height: 400;
+    width: 100%;
+    /* background: rgb(12, 46, 61); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.main-form{
+    width: 350px;
+    height: 400px;
+    background: white;
+
+}
+label{
+    display: block;
+    padding: 10px;
+    margin: 6px 0px;
+    font-size: 20px;
+}
+.data-input{
+    width: 70%;
+    padding: 12px;
+    display: block;
+    border: 0;
+    outline: 0;
+    background: none;
+    border-bottom: 3px solid rgb(12, 46, 61);
+}
+.data-input[type="text"]
+{
+    color: white;
+}
+.data-input[type="password"]
+{
+    color: yellow;
+}
+.data-input[type="email"]
+{
+    color: red;
+}
+
+
+.btn{
+    padding: 12px;
+    width: 70%;
+    margin-top: 19px;
+}
